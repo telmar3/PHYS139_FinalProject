@@ -28,4 +28,5 @@ This is the actual model architecture. This notebook is where the model is train
 This notebook reverses some of the preprocessing in order to return the predicted data to the original units, and range. The postprocessing includes:
  - Butterworth filtering
  - Inverse Z-score
+ 
 Furthermore, the SNR and noise reduction pipeline is integrated into this notebook. The noise reduction and SNR are done using the predicted noise data given a GW strain input into the model after postprocessing
