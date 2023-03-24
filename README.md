@@ -30,3 +30,7 @@ This notebook reverses some of the preprocessing in order to return the predicte
  - Inverse Z-score
  
 Furthermore, the SNR and noise reduction pipeline is integrated into this notebook. The noise reduction and SNR are done using the predicted noise data given a GW strain input into the model after postprocessing
+
+### cnn_model_final_customloss.ipynb
+This notebook is an attempt at creating the model architecture with the proper DeepClean loss function.
+This file was not integrated with the other files in time and unfortunately could not be used to measure pipeline performance. 
